@@ -1,0 +1,29 @@
+.line{
+    height: 4px;
+    width: 80px;
+}
+
+label{
+    color: #1abc9c;
+    margin-bottom: 7px;
+    transition: .6s top;
+}
+
+.__top{
+    top: 40px !important;
+}
+
+input:focus{
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 768px)
+{
+    .w_100{
+        width: 100% !important;
+    }
+}
+
+.contact{
+    min-height: calc(100vh - 106px) ;
+}
